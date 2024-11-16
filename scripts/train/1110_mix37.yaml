@@ -1,0 +1,5 @@
+datasets:
+  - json_path: /gpfs/public/research/jiawei/visual_web_inst/1105_ablation_after_hallucinatory.json
+    sampling_strategy: "first:30%"
+  - json_path: /gpfs/public/research/jiawei/visual_web_inst/1106_ablation_original_1M.json
+    sampling_strategy: "first:70%"
