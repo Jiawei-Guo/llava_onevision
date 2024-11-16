@@ -17,7 +17,7 @@ source /gpfs/public/research/miniconda3/bin/activate llava
 # llama3.1 transformers==4.43.1(4.42.3) accelerate==0.33.0 
 export HF_HOME="/gpfs/public/research/jiawei/cache"
 
-WANDB_API_KEY='37128389d5735eafeee374833b0b2391aeffe924'
+WANDB_API_KEY=''
 wandb login --relogin $WANDB_API_KEY
 
 # PROMPT_VERSION="llava_llama_3"
